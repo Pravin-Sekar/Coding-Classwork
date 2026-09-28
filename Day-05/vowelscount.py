@@ -1,10 +1,10 @@
 a = input("Enter string: ")
-b = a.lower()
+
 
 v = 0
 c = 0
 
-for i in b:
+for i in a:
     if i in "aeiou":
         v += 1
     else:
